@@ -29,7 +29,7 @@ main:
 	syscall
 
 	
-	add $a0,$t0,$zero	# sonucu basmak icin $a0'a al
+	add $a0,$t0,$zero	# sonucu basmak icin $a0'a gecir
 	addi $v0,$zero,1	# syscall-1 tamsayi basma
 	syscall
 	
